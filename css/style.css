@@ -1,0 +1,339 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.list li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(114, 70, 41);
+}
+.header {
+    z-index: 3;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background-color: rgb(246, 235, 229);
+    top: 0;
+    left: 0;
+}
+.list li:hover a {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.list li {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.list {
+    float: right;
+    margin-right: 50px;
+
+}
+
+.img-header {
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-left: 30px;
+}
+.header i{
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+    /* color:rgb(114, 71, 40) ; */
+    color: black;
+    font-size: 20px;
+}
+.home {
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(149, 113, 93);
+    /* background-image: url(../image/);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    margin: auto;
+    position: relative;
+    margin-top: 100px;
+}
+.home-content {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.home-title {
+    color: #fff;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+}
+.home-btn {
+    width: 150px;
+    padding: 15px 0px;
+    border: none;
+    font-size: 19px;
+    cursor: pointer;
+    text-transform: capitalize;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.special-container{
+    width: 80%;
+    margin: auto;
+    
+}
+.special-title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.special-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.special-item{
+    width: 23%;
+    margin-top: 30px;
+    
+}
+.special-info-p{
+    margin-top: 20px;
+}
+.special-image{
+    text-align: center;
+    background-color: rgb(224, 212, 203);
+    
+}
+.special-line{
+    border: 2px solid rgb(139, 86, 32);
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.marketening-container{
+    margin: auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-column-gap: 40px;
+    margin-top: 100px;
+
+}
+
+.marketening-item{
+    /* height: 300px; */
+    /* border: 3px solid red; */
+    background-color:rgb(224, 212, 203) ;
+}
+.marketening-info-title{
+    font-size: 25px;
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+}
+.marketening-info-p{
+    font-size: 18px;
+    line-height: 30px;
+    width: 85%;
+    margin: auto;
+    word-spacing: 4px;
+    margin-top: 20px;
+}
+.marketing-image img{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+/* ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.item-images{
+    width: 80%;
+    display: flex;
+    /* display: grid; */
+    margin: auto;
+    margin-top: 100px;
+    margin-left: 250px;
+    /* column-count: 5;
+    column-rule:2px solid rgb(139, 86, 32); */
+
+}
+.item-image  {
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.item-image:hover{
+   background-repeat: no-repeat;
+}
+.img1:hover{
+   background-image: url(../image/icon12.png); 
+
+}
+.img1{
+    background-image: url(../image/icon1.png);
+
+}
+
+.img2:hover{
+    background-image: url(../image/icon22.png); 
+ 
+ }
+ .img2{
+     background-image: url(../image/icon-2.png);
+ 
+ }
+ .img3:hover{
+    background-image: url(../image/icon33.png); 
+ 
+ }
+ .img3{
+     background-image: url(../image/icon-3.png);
+ 
+ }
+ .img4:hover{
+    background-image: url(../image/icon44.png); 
+ 
+ }
+ .img4{
+     background-image: url(../image/icon-4.png);
+ 
+ }
+ .img5:hover{
+    background-image: url(../image/icon55.png); 
+ }
+ .img5{
+     background-image: url(../image/icon-5.png);
+     
+ 
+ }
+ .item-image h4{
+    margin-top: 100px;
+    margin-left: -15px;
+ }
+.featured-title{
+    text-align: center;
+    margin-top: -10px;
+}
+.featured-line{
+    border: 2px solid rgb(139, 86, 32);
+    width: 80px;
+    margin: auto;
+    margin-top: 10px;
+}
+.featured-line:hover{
+    width: 150px;
+    transition: 2s;
+}
+.featured-content{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+}
+.featured-item{
+    display: flex;
+    justify-content:space-around;
+}
+.front{
+    background-color:rgb(224, 212, 203) ;
+    width: 100%;
+}
+.front img{
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+}
+.featured-item:hover{
+    transform: rotateY(180deg);
+}
+
+.featured-item {
+    transform-style: preserve-3d;
+    position: relative;
+    transition: all 2s;
+    margin-bottom: 50px;
+}
+
+.front,.back ,.featured-item {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.back{
+    transform: rotateY(180deg);
+    position: absolute;
+    backface-visibility: hidden;
+    text-align: center;
+}
+.featured-info{
+    backface-visibility: hidden;
+}
+
+.front{
+    position: absolute;
+    z-index: 1;
+    backface-visibility: hidden;
+    text-align: center;
+    margin-top: 30px;
+}
+.featured-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(244, 228, 216, 0.6);
+    visibility: hidden;
+    display: flex;
+}
+.featured-icon a{
+  width: 40px;
+  height: 40px;
+  background-color:rgb(158, 108, 81);
+  color: white;
+  margin: auto;
+}
+.featured-icon a i{
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+.featured-item:hover .featured-icon{
+    opacity: 1;
+    visibility: visible;
+    
+}
+.icon{
+    background-color: rgb(158, 108, 81);
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+
+}
+.back img{
+    margin: auto;
+    margin-top: 40px;
+    width: 80%;
+    
+}
+.featured-info{
+    margin-top: 350px;
+    margin-left: -190px;
+}
